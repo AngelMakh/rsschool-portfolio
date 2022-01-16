@@ -91,7 +91,6 @@
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
-    line-height: 40px;
     text-align: center;
     color: #000000;
   }
@@ -438,3 +437,27 @@ textarea {
   margin-left: 20px;
   margin-right: 20px;
 }
+
+.logo-video {
+  border: none;
+  background: rgba(0,0,0,0);
+  width: 130px;
+  height: 130px;
+  padding: 0;
+  margin: 0;
+  margin-top: 288px;
+  margin-left: 636px;
+}
+
+.logo-video :hover{
+  filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%) contrast(87%);
+}
+
+.rss :hover {
+  color: #BDAE82;
+}
+
+.nav-list :hover{
+  color:#BDAE82;
+}
+
