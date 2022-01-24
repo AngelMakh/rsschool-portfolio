@@ -3,6 +3,7 @@
  <head>
   <meta charset="utf-8">
   <title>portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="shortcut icon" href="assets/svg/favicon.ico" type="image/ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -42,29 +43,31 @@
          <section id="skills" class="skills">
          <div class="heh2"><h2>Skills</h2></div>
          <div class="skills-items">
-             <div class="skill-item" style="margin-right:30px;">
+             <div class = "skills-row">
+             <div class="skill-item">
                  <img src = "assets/svg/camera 1.svg" alt="camera" width="62px" height="50px">
                  <p>Digital photography</p> 
                  <p class="text-item">High-quality photos in the studio and on the nature</p>
                  </div>
 
-             <div class="skill-item" style="margin-right: 30px;" style="margin-left: 30px;">
-                 <img src = "assets/svg/video 1.svg" alt="video" width="60px" height="50px"> 
-                 <p>Video shooting</p>
-                 <p class="text-item">Capture your moments so that they always stay with you</p>
-             </div>
+                 <div class="skill-item">
+                    <img src = "assets/svg/image 1.svg" alt="image" width="66px" height="50px">
+                    <p>Retouch</p>
+                    <p class="text-item">I strive to make photography surpass reality</p>
+                 </div></div>
 
-             <div class="skill-item"  style="margin-right: 30px;" style="margin-left: 30px;">
-                <img src = "assets/svg/image 1.svg" alt="image" width="66px" height="50px">
-                <p>Retouch</p>
-                <p class="text-item">I strive to make photography surpass reality</p>
-             </div>
+             <div class = "skills-row">
+                <div class="skill-item">
+                    <img src = "assets/svg/video 1.svg" alt="video" width="60px" height="50px"> 
+                    <p>Video shooting</p>
+                    <p class="text-item">Capture your moments so that they always stay with you</p>
+                </div>
 
-             <div class="skill-item" style="margin-left: 30px;">
+             <div class="skill-item">
                 <img src = "assets/svg/mic 1.png" alt="micro" width="32px" height="50px">
                 <p>Audio</p>
                 <p class="text-item">Professional sounds recording for video, advertising, portfolio</p>
-             </div>
+             </div></div>
 
          </div>
         </section>
@@ -73,10 +76,13 @@
         <section class="portfolio" id="portfolio">
          <div class="heh2"><h2>Portfolio</h2></div>
          <div class="portfolio-buttons">
+             <div class = "buttons-row">
              <span><button class="button-non-active" title="sorry, this function isn't available now. please, try later" ><div class="button-na-text">Winter</div></button></span>
              <span><button class="button-non-active" title="sorry, this function isn't available now. please, try later" ><div class="button-na-text">Spring</div></button></span>
+            </div>
+            <div class = "buttons-row">
              <span><button class="button-non-active" title="sorry, this function isn't available now. please, try later" ><div class="button-na-text">Summer</div></button></span>
-             <span><button ><div class="button-text">Autumn</div></button></span>
+             <span><button ><div class="button-text">Autumn</div></button></span></div>
          </div>
          <div class="portfolio-items">
              <div class="photo-row">
@@ -156,6 +162,7 @@
 
          </div>
     </main>
+    <script src="index.js"></script>
  </body>
  <footer>
      <div class="footer-data">
